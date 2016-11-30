@@ -6,6 +6,22 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <p>Bienvenido:<%= title %></p>
+    <p>Materia:<%= subtitle %></p>
+    <table bgcolor="red" border="2" width="50">
+    <tr>
+	    
+	    <td width="200"><p>TipoReclamo:</p></td>
+	    <td width="200"><p>Observacion:</p></td> 
+	    <td width="200"><p>FechaReclamo:</p></td>
+	</tr>
+    <tr>
+	    <td bgcolor="purple" width="100"><p><%=reclamo.tipoReclamo %></p></td>
+	    <td bgcolor="red" width="100"><p><%=reclamo.observacion %></p></td> 
+	    <td bgcolor="blue" width="100"><p><%=reclamo.FechaReclamo %></p></td>
+    	
+    </tr>
+    </table>
+    
   </body>
 </html>

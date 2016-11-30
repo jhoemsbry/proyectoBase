@@ -3,9 +3,21 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+
   </head>
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+     <table border="2" width="60%">
+  <tr>
+  <th>tipoReclamo</th>
+  <th>observacion</th>
+  <th>fechaReclamo</th>
+  </tr>
+  	<tr>
+  	<td aling="center"><%? reclamo.tipoReclamo %></td>
+	<td aling="center"><%? reclamo.observacion %></td>
+  	<td aling="center"><%? reclamo.fechaReclamo %></td>
+  </tr>
   </body>
 </html>
